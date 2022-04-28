@@ -19,3 +19,10 @@ hex = "0.4.3"
 rayon = "1.5.1"
 crossbeam-channel = "0.5.4"
 rand = { version = "0.8.5", features = ["getrandom"] }
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "qrllib_rust_benchmarks"
+harness = false

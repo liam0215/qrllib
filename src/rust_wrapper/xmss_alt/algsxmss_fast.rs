@@ -18,7 +18,7 @@ pub struct TreeHashInst {
     pub node: Vec<u8>,
 }
 
-#[derive(Default)]
+#[derive(Default, Clone)]
 pub struct BDSState {
     pub stack: Vec<u8>,
     pub stackoffset: u32,

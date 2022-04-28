@@ -7,6 +7,7 @@ use crate::rust_wrapper::xmss_alt::algsxmss_fast::{
 use crate::rust_wrapper::xmss_alt::hash_functions::HashFunction;
 use crate::rust_wrapper::xmss_alt::xmss_common::XMSSParams;
 
+#[derive(Clone)]
 pub struct XMSSFast {
     base: XMSSBase,
     params: XMSSParams,

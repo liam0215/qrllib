@@ -44,6 +44,7 @@ const OFFSET_PUB_SEED: usize = OFFSET_SK_PRF + 32;
 
 const OFFSET_ROOT: usize = OFFSET_PUB_SEED + 32;
 
+#[derive(Clone)]
 pub struct XMSSBase {
     pub hash_function: HashFunction,
     pub addr_format_type: AddrFormatType,

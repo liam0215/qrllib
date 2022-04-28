@@ -9,6 +9,7 @@ use crate::rust_wrapper::{
     xmss_alt::{hash_functions::HashFunction, xmss_common::XMSSParams},
 };
 
+#[derive(Clone)]
 pub struct XMSSBasic {
     base: XMSSBase,
     params: XMSSParams,
